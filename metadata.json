@@ -1,0 +1,6 @@
+{
+  "name": " Phishing detector",
+  "description": "A full-stack phishing detection application using React, TailwindCSS, Express, and Gemini AI for URL analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

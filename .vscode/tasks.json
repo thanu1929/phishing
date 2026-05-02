@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm: install",
+      "type": "shell",
+      "command": "npm install",
+      "group": "build"
+    },
+    {
+      "label": "python: install",
+      "type": "shell",
+      "command": "pip install -r requirements.txt",
+      "group": "build"
+    },
+    {
+      "label": "run: frontend",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": "$vite"
+    },
+    {
+      "label": "run: backend",
+      "type": "shell",
+      "command": "node server.js",
+      "isBackground": true,
+      "problemMatcher": "$tsc-watch"
+    }
+  ]
+}
